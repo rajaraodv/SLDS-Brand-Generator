@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Salesforce Design System Tutorial</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <link rel="stylesheet" type="text/css" href="/assets/styles/salesforce-lightning-design-system-ltng.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="/assets/main.js"></script>
+
+</head>
+
+<body class="slds">
+<div class="slds-grid slds-wrap">
+<div class="slds-col slds-size--3-of-12 slds-medium-size--1-of-6 slds-large-size--3-of-12">
+<table class="slds-table ">
+  <thead>
+    <tr class="slds-text-heading--label">
+    <th scope="col">
+        <span class="slds-truncate">Token Name</span>
+      </th>
+      <th scope="col">
+        <span class="slds-truncate">Value</span>
+      </th>
+      </tr>
+  </thead>
+  <tbody>
+  </tbody>
+  <tr>
+  <td data-label="Token Name">
+        <span class="slds-truncate">$color-background</span>
+      </td>
+      <td data-label="Value">
+        <span class="slds-truncate"><input id="$color-background" class="slds-input" type="text" placeholder="#f4f6f9" value="#f4f6f9"/></span>
+      </td>
+  </tr>
+  <tr>
+  <td data-label="Token Name">
+        <span class="slds-truncate">$color-text-default</span>
+      </td>
+      <td data-label="Value">
+        <span class="slds-truncate"><input  id="$color-text-default" class="slds-input" type="text" placeholder="rgb(22, 50, 92)" value="rgb(22, 50, 92)"/></span>
+      </td>
+  </tr>
+  </table>
+</div>
+<div class="slds-col slds-size--9-of-12 slds-medium-size--5-of-6 slds-large-size--9-of-12">
+    <header role="banner">
+      <h1 class="slds-text-heading--label slds-m-bottom--small">Salesforce Design System Tutorial</h1>
+    </header>
+
+    <div class="main" role="main">
+
+      <section aria-labelledby="anchor-component">
+        <h2 id="anchor-component" class="slds-text-heading--large slds-p-top--medium slds-p-bottom--medium">Components/Anchor</h2>
+
+        <div class="slds-anchor slds-anchor--rec-home">
+          <div class="slds-grid slds-grid--align-spread">
+            <div class="slds-media slds-col slds-media--rec-home">
+              <div class="slds-media__figure">
+                <svg aria-hidden="true" class="slds-icon slds-icon--large slds-icon-standard-user">
+                  <use xlink:href="/assets/icons/standard-sprite/svg/symbols.svg#user" />
+                </svg>
+              </div>
+              <div class="slds-media__body">
+                <p class="slds-text-heading--label">Record Type</p>
+                <div class="slds-grid">
+                  <div class="slds-col">
+                    <h1 class="slds-text-heading--medium slds-media--rec-home__title slds-truncate">Record Title</h1>
+                  </div>
+                  <div class="slds-col slds-shrink-none slds-align-bottom">
+                    <button class="slds-button slds-button--neutral slds-not-selected" aria-live="assertive">
+                      <span class="slds-text-not-selected">
+                        <svg aria-hidden="true" class="slds-button__icon--stateful slds-button__icon--left">
+                          <use xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#add" />
+                        </svg>Follow</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slds-col slds-shrink-none slds-align-bottom">
+              <div class="slds-button-group" role="group">
+                <button class="slds-button slds-button--neutral">Action 1</button>
+                <button class="slds-button slds-button--neutral">Action 2</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="tabs-component">
+        <h2 id="tabs-component" class="slds-text-heading--large slds-p-top--medium slds-p-bottom--medium">Components/Tabs</h2>
+
+        <div class="slds-tabs--default" role="tablist">
+          <ul class="slds-tabs--default__nav" role="presentation">
+            <li class="slds-tabs__item slds-text-heading--label slds-active" title="Item One">
+              <a href="#" role="tab" aria-selected="true" tabindex="0">Tab 1</a>
+            </li>
+            <li class="slds-tabs__item slds-text-heading--label" title="Item Two">
+              <a href="#" role="tab" aria-selected="false" tabindex="0">Tab 2</a>
+            </li>
+            <li class="slds-tabs__item slds-text-heading--label" title="Item Three">
+              <a href="#" role="tab" aria-selected="false" tabindex="0">Tab 3</a>
+            </li>
+          </ul>
+          <div class="slds-tabs__content slds-show" role="tabpanel" aria-labelledby="one">
+            <h2>Tab 1 content</h2>
+          </div>
+          <div class="slds-tabs__content slds-hide" role="tabpanel" aria-labelledby="one">
+            <h2>Tab 2 content</h2>
+          </div>
+          <div class="slds-tabs__content slds-hide" role="tabpanel" aria-labelledby="one">
+            <h2>Tab 3 content</h2>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <footer role="contentinfo" class="slds-p-top--x-large slds-p-bottom--x-large">
+      <h2 id="labels" class="slds-text-heading--large slds-p-top--x-large slds-p-bottom--medium">Core/Grid</h2>
+      <div class="slds-grid slds-grid--align-spread">
+        <p class="slds-col">Footer Col 1: Salesforce Design System tutorial</p>
+        <p class="slds-col">Footer Col 2: Salesforce Design System tutorial</p>
+      </div>
+    </footer>
+
+  </div>
+</div>
+</body>
+
+</html>

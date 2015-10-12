@@ -1,0 +1,8 @@
+// Salesforce Design System Tokens
+@import "salesforce-design-system/scss/design-tokens.scss";
+
+// Override token values here:
+ $color-text-default: red;
+
+// Salesforce Design System
+@import "salesforce-design-system/scss/index-ltng.scss";

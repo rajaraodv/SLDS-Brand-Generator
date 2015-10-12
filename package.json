@@ -1,0 +1,18 @@
+{
+  "name": "slds-brand-generator",
+  "version": "1.0.0",
+  "description": "Salesforce Design System Getting Started Page",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "cors": "^2.7.1",
+    "express": "^4.12.3",
+    "node-sass": "3.3.3"
+  }
+}
